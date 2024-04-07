@@ -1,1 +1,93 @@
 /* Yep. Nothing. You've got this though! Refer back to the curriculum wherever necessary! */
+
+/* Adjust width and background color of .box, add padding */
+.box {
+    width: 400px;
+    background-color: lightblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Add margin to .box-with-margin */
+.box-with-margin {
+    margin: 30px;
+}
+
+/* Change position of .static-element to relative */
+.static-element {
+    position: relative;
+}
+
+/* Move .relative-element 50px to the right */
+.relative-element {
+    position: relative;
+    left: 50px;
+}
+
+/* Change position of .absolute-element to relative and set top property */
+.absolute-element {
+    position: relative;
+    top: 150px;
+}
+
+/* Fix .fixed-element to the bottom right corner of the viewport */
+.fixed-element {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+/* Add border to .column and change float to right */
+.column {
+    border: 1px solid lightgray;
+    float: right;
+}
+
+/* Change display of .container to inline-flex */
+.container {
+    display: inline-flex;
+}
+
+/* Adjust width of .item and add margin to the right */
+.item {
+    width: 200px;
+    margin-right: 20px;
+}
+
+/* Create grid layout for .grid-container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+        "header header header header"
+        "sidebar main main main"
+        "footer footer footer footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+/* The .box class elements will now be 400px wide, have a light blue background, and 10px padding on the top and bottom.
+/* The .box-with-margin class adds a 30px margin around elements.
+/* The .static-element is now positioned relatively.
+/* The .relative-element is shifted 50px to the right.
+/* The .absolute-element position is changed to relative, and it's moved down 150px.
+/* The .fixed-element is positioned at the bottom right corner of the viewport.
+/* The .column class includes a 1px solid light gray border and is floated to the right.
+/* The .container class now displays its child elements as inline-flex.
+/* The .item class elements are set to 200px wide with a 20px margin to the right.
+/* The .grid-container class is designed to display its children in a grid layout with specified areas for .header, .sidebar, .main, and .footer.
